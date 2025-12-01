@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">G
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Chris Carpentier">
+        <title>Chris Carpentier | Portfolio</title>
+        <style>
+            :root { color-scheme: light dark; }
+            body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 0; line-height: 1.6; }
+            header { padding: 2rem 1rem; text-align: center; border-bottom: 1px solid #ddd; }
+            h1 { margin: 0 0 .25rem; font-size: clamp(1.75rem, 4vw, 2.5rem); }
+            header p { margin: 0; color: #666; }
+            main { padding: 2rem 1rem; max-width: 900px; margin: 0 auto; }
+            section { margin-bottom: 2.5rem; }
+            h2 { margin: 0 0 1rem; font-size: clamp(1.5rem, 3vw, 2rem); border-bottom: 2px solid #ddd; padding-bottom: 0.5rem; }
+            h3 { margin: 1.5rem 0 0.5rem; font-size: 1.25rem; }
+            .job, .education-item { margin-bottom: 1.5rem; }
+            .job-header, .education-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem; }
+            .job-title, .degree { font-weight: 600; font-size: 1.1rem; }
+            .company, .school { color: #666; font-style: italic; }
+            .date, .location { color: #888; font-size: 0.9rem; }
+            ul { margin: 0.5rem 0; padding-left: 1.5rem; }
+            li { margin-bottom: 0.5rem; }
+            footer { padding: 1.25rem 1rem; text-align: center; border-top: 1px solid #ddd; color: #666; }
+        </style>
+</head>
+<body>
+        <header>
+            <h1>Chris Carpentier</h1>
+            <p>Portfolio</p>
+        </header>
+    <main>
+            <section>
+                <h2>About</h2>
+                <p>Marketing professional with an MBA in Marketing Research and experience in digital marketing, analytics, and data-driven strategy. Passionate about leveraging data to optimize marketing channels and drive business growth.</p>
+            </section>
+
+            <section>
+                <h2>Experience</h2>
+                
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Marketing Intern</div>
+                            <div class="company">Dube Travel</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="date">May 2022 – Present</div>
+                            <div class="location">Auburn, ME</div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>Designed social media and marketing plan with targeted channels to increase online following by 15%</li>
+                        <li>Utilized analytics from each social media platform to optimize impressions from travel and non-travelers</li>
+                        <li>Day-to-day management and optimization of all digital marketing channels (social media, search engine marketing, email marketing) and digital marketing analysis</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Production Specialist</div>
+                            <div class="company">L.L. Bean</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="date">2014 – 2017</div>
+                            <div class="location">Freeport, ME</div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>Manufactured duck boots on assembly line with a team of workers making the famous Bean Boots</li>
+                        <li>Earned consistent high marks for meeting quality and productivity goals for embroidery</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Attendance Clerk</div>
+                            <div class="company">Gray-New Gloucester High School</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="date">2009 – 2014</div>
+                            <div class="location">Gray, ME</div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>Analyzed students' attendance daily, created daily reports and reported them to Principal, VP, and Guidance Department</li>
+                        <li>Maintained information, files, and records for up-to-date reference and audit trail for compliance</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Education</h2>
+                
+                <div class="education-item">
+                    <div class="education-header">
+                        <div>
+                            <div class="degree">MBA in Marketing Research</div>
+                            <div class="school">Southern New Hampshire University</div>
+                        </div>
+                        <div class="date">2019 – 2022</div>
+                    </div>
+                    <p style="margin: 0.25rem 0 0; color: #666;">Concentration: Business/Marketing Analysis</p>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-header">
+                        <div>
+                            <div class="degree">BS in Business/Marketing</div>
+                            <div class="school">New England College</div>
+                        </div>
+                        <div class="date">1997 – 2002</div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Skills & Certifications</h2>
+                <h3>Skills</h3>
+                <ul>
+                    <li>Collecting and recording data into computer programs</li>
+                    <li>Microsoft Office Suite</li>
+                    <li>Data Analytics Programs</li>
+                    <li>Digital Marketing & Social Media Management</li>
+                    <li>Search Engine Marketing (SEM)</li>
+                    <li>Email Marketing</li>
+                </ul>
+                <h3>Certifications</h3>
+                <ul>
+                    <li>Google Analytics</li>
+                </ul>
+            </section>
+    </main>
+        <footer>
+            <p>© <span id="year"></span> Chris Carpentier</p>
+            <script>
+                document.getElementById('year').textContent = new Date().getFullYear();
+            </script>
+        </footer>
+</body>
+</html>
